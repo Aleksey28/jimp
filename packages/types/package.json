@@ -1,6 +1,6 @@
 {
   "name": "@my-jimp/types",
-  "version": "0.16.9",
+  "version": "0.16.10",
   "description": "Default hekerman encoder/decoders.",
   "main": "dist/index.js",
   "module": "es/index.js",
