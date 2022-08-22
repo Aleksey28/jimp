@@ -1,6 +1,6 @@
 {
   "name": "@my-jimp/plugin-blur",
-  "version": "0.16.3",
+  "version": "0.16.4",
   "description": "blur an image.",
   "main": "dist/index.js",
   "module": "es/index.js",

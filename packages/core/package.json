@@ -1,6 +1,6 @@
 {
   "name": "@my-jimp/core",
-  "version": "0.16.3",
+  "version": "0.16.4",
   "description": "Jimp core",
   "main": "dist/index.js",
   "module": "es/index.js",

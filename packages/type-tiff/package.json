@@ -1,6 +1,6 @@
 {
   "name": "@my-jimp/tiff",
-  "version": "0.16.3",
+  "version": "0.16.4",
   "description": "Default hekerman tiff encoder/decoder.",
   "main": "dist/index.js",
   "module": "es/index.js",
