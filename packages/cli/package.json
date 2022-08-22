@@ -1,6 +1,6 @@
 {
   "name": "@my-jimp/cli",
-  "version": "0.16.10",
+  "version": "0.16.11",
   "description": "jimp on the cli",
   "bin": {
     "jimp": "dist/index.js"
