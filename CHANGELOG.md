@@ -1,3 +1,15 @@
+# v0.16.8 (Mon Aug 22 2022)
+
+#### ⚠️  Pushed to `master`
+
+- replace jimp to my-jimp ([@Aleksey28](https://github.com/Aleksey28))
+
+#### Authors: 1
+
+- Popov Aleksey ([@Aleksey28](https://github.com/Aleksey28))
+
+---
+
 # v0.16.7 (Mon Aug 22 2022)
 
 #### ⚠️  Pushed to `master`
