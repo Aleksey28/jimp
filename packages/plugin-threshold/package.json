@@ -1,6 +1,6 @@
 {
   "name": "@my-jimp/plugin-threshold",
-  "version": "0.16.8",
+  "version": "0.16.9",
   "description": "Lightens an image.",
   "main": "dist/index.js",
   "module": "es/index.js",
