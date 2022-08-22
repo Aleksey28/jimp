@@ -1,6 +1,6 @@
 {
   "name": "@my-jimp/plugin-circle",
-  "version": "0.16.2",
+  "version": "0.16.3",
   "description": "Creates a circle out of an image.",
   "main": "dist/index.js",
   "module": "es/index.js",
