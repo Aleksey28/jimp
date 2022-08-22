@@ -1,6 +1,6 @@
 {
   "name": "@my-jimp/plugin-color",
-  "version": "0.16.4",
+  "version": "0.16.5",
   "description": "Bitmap manipulation to adjust the color in an image.",
   "main": "dist/index.js",
   "module": "es/index.js",

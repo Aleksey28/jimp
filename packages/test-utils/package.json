@@ -1,6 +1,6 @@
 {
   "name": "@my-jimp/test-utils",
-  "version": "0.16.4",
+  "version": "0.16.5",
   "description": "Test utils for hekerman extensions.",
   "main": "dist/index.js",
   "module": "es/index.js",

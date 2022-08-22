@@ -1,6 +1,6 @@
 {
   "name": "@my-jimp/bmp",
-  "version": "0.16.4",
+  "version": "0.16.5",
   "description": "Default hekerman bmp encoder/decoder.",
   "main": "dist/index.js",
   "module": "es/index.js",
