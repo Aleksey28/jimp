@@ -1,5 +1,5 @@
-import { Jimp, donutJGD } from '@jimp/test-utils';
-import configure from '@jimp/custom';
+import { Jimp, donutJGD } from '@my-jimp/test-utils';
+import configure from '@my-jimp/custom';
 
 import color from '../src';
 

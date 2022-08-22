@@ -1,4 +1,4 @@
-import { ImageCallback } from '@jimp/core';
+import { ImageCallback } from '@my-jimp/core';
 
 interface Rotate {
   rotate(deg: number, cb?: ImageCallback<this>): this;

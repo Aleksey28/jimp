@@ -1,4 +1,4 @@
-import { isNodePattern } from '@jimp/utils';
+import { isNodePattern } from '@my-jimp/utils';
 
 /**
  * Get an image's histogram

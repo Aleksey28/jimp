@@ -1,4 +1,4 @@
-import { GenericCallback, ImageCallback } from '@jimp/core';
+import { GenericCallback, ImageCallback } from '@my-jimp/core';
 
 export interface FontChar {
   id: number;

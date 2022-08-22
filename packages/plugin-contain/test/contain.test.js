@@ -1,8 +1,8 @@
-import { Jimp, mkJGD, hasOwnProp } from '@jimp/test-utils';
-import configure from '@jimp/custom';
-import blit from '@jimp/plugin-blit';
-import resize from '@jimp/plugin-resize';
-import scale from '@jimp/plugin-scale';
+import { Jimp, mkJGD, hasOwnProp } from '@my-jimp/test-utils';
+import configure from '@my-jimp/custom';
+import blit from '@my-jimp/plugin-blit';
+import resize from '@my-jimp/plugin-resize';
+import scale from '@my-jimp/plugin-scale';
 
 import contain from '../src';
 

@@ -1,8 +1,8 @@
 /* eslint key-spacing: ["error", { "align": "value" }] */
 
-import { Jimp, getTestDir, hasOwnProp } from '@jimp/test-utils';
-import configure from '@jimp/custom';
-import blit from '@jimp/plugin-blit';
+import { Jimp, getTestDir, hasOwnProp } from '@my-jimp/test-utils';
+import configure from '@my-jimp/custom';
+import blit from '@my-jimp/plugin-blit';
 
 import print from '../src';
 

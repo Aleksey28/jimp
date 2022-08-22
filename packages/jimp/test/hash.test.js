@@ -1,7 +1,7 @@
-import { Jimp, getTestDir } from '@jimp/test-utils';
-import configure from '@jimp/custom';
-import types from '@jimp/types';
-import plugins from '@jimp/plugins';
+import { Jimp, getTestDir } from '@my-jimp/test-utils';
+import configure from '@my-jimp/custom';
+import types from '@my-jimp/types';
+import plugins from '@my-jimp/plugins';
 
 const jimp = configure({ types: [types], plugins: [plugins] }, Jimp);
 

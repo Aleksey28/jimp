@@ -8,7 +8,7 @@ import {
   GetIntersectionFromPlugins,
   GetIntersectionFromPluginsStatics,
   JimpConstructors
-} from '@jimp/core';
+} from '@my-jimp/core';
 
 type JimpInstance<
   TypesFuncArr extends FunctionRet<JimpType> | undefined,

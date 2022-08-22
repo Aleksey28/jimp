@@ -1,6 +1,6 @@
-import { Jimp, mkJGD, getTestDir } from '@jimp/test-utils';
-import jpeg from '@jimp/jpeg';
-import configure from '@jimp/custom';
+import { Jimp, mkJGD, getTestDir } from '@my-jimp/test-utils';
+import jpeg from '@my-jimp/jpeg';
+import configure from '@my-jimp/custom';
 
 import blit from '../src';
 

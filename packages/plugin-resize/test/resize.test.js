@@ -1,5 +1,5 @@
-import { Jimp, mkJGD, hashForEach } from '@jimp/test-utils';
-import configure from '@jimp/custom';
+import { Jimp, mkJGD, hashForEach } from '@my-jimp/test-utils';
+import configure from '@my-jimp/custom';
 
 import resize from '../src';
 

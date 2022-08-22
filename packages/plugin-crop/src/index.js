@@ -1,6 +1,6 @@
 /* eslint-disable no-labels */
 
-import { throwError, isNodePattern } from '@jimp/utils';
+import { throwError, isNodePattern } from '@my-jimp/utils';
 
 export default function pluginCrop(event) {
   /**

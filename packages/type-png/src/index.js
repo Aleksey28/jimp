@@ -1,5 +1,5 @@
 import { PNG } from 'pngjs';
-import { throwError, isNodePattern } from '@jimp/utils';
+import { throwError, isNodePattern } from '@my-jimp/utils';
 
 const MIME_TYPE = 'image/png';
 
@@ -45,8 +45,8 @@ export default () => ({
           typeof data._colorType === 'number'
             ? data._colorType
             : data._rgba
-              ? 6
-              : 2,
+            ? 6
+            : 2,
         inputHasAlpha: data._rgba
       });
     }

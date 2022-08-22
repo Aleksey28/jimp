@@ -22,7 +22,7 @@ export type WellFormedValues<T extends any> =
 export type WellFormedConstants<T extends any> =
   (T extends {constants: infer Constants} ? Constants : {});
 
-// Util type for the functions that deal with `@jimp/custom`
+// Util type for the functions that deal with `@my-jimp/custom`
 // Must accept any or no props thanks to typing of the `plugins` intersected function
 export type FunctionRet<T> = Array<(...props: any[] | never) => T>;
 

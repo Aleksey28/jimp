@@ -1,8 +1,8 @@
-import { Jimp, mkJGD, hasOwnProp } from '@jimp/test-utils';
-import configure from '@jimp/custom';
-import crop from '@jimp/plugin-crop';
-import scale from '@jimp/plugin-scale';
-import resize from '@jimp/plugin-resize';
+import { Jimp, mkJGD, hasOwnProp } from '@my-jimp/test-utils';
+import configure from '@my-jimp/custom';
+import crop from '@my-jimp/plugin-crop';
+import scale from '@my-jimp/plugin-scale';
+import resize from '@my-jimp/plugin-resize';
 
 import cover from '../src';
 

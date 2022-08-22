@@ -1,7 +1,7 @@
-import { Jimp, mkJGD, getTestDir } from '@jimp/test-utils';
-import configure from '@jimp/custom';
-import resize from '@jimp/plugin-resize';
-import blur from '@jimp/plugin-blur';
+import { Jimp, mkJGD, getTestDir } from '@my-jimp/test-utils';
+import configure from '@my-jimp/custom';
+import resize from '@my-jimp/plugin-resize';
+import blur from '@my-jimp/plugin-blur';
 
 import shadow from '../src';
 

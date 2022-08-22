@@ -1,4 +1,4 @@
-import { ImageCallback } from '@jimp/core';
+import { ImageCallback } from '@my-jimp/core';
 
 interface Fisheye {
   fishEye(opts?: { r: number }, cb?: ImageCallback<this>): this;

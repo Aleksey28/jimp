@@ -1,4 +1,4 @@
-import { Jimp, mkJGD } from '@jimp/test-utils';
+import { Jimp, mkJGD } from '@my-jimp/test-utils';
 
 describe('Scan (pixel matrix modification)', () => {
   const barsJGD = mkJGD('▴▴▸▸▾▾◆◆', '▴▴▸▸▾▾◆◆', '▵▵▹▹▿▿◇◇');

@@ -1,4 +1,4 @@
-import { throwError, isNodePattern } from '@jimp/utils';
+import { throwError, isNodePattern } from '@my-jimp/utils';
 
 /**
  * Rotates an image clockwise by an arbitrary number of degrees. NB: 'this' must be a Jimp object.

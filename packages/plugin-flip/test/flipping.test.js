@@ -1,6 +1,6 @@
-import { Jimp, mkJGD } from '@jimp/test-utils';
+import { Jimp, mkJGD } from '@my-jimp/test-utils';
 
-import configure from '@jimp/custom';
+import configure from '@my-jimp/custom';
 
 import flip from '../src';
 

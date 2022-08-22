@@ -1,5 +1,5 @@
 import JPEG from 'jpeg-js';
-import { throwError, isNodePattern } from '@jimp/utils';
+import { throwError, isNodePattern } from '@my-jimp/utils';
 
 const MIME_TYPE = 'image/jpeg';
 

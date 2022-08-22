@@ -1,5 +1,5 @@
-import { Jimp, getTestDir } from '@jimp/test-utils';
-import configure from '@jimp/custom';
+import { Jimp, getTestDir } from '@my-jimp/test-utils';
+import configure from '@my-jimp/custom';
 
 import png from '../src';
 

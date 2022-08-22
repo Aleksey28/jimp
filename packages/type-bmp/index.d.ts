@@ -1,4 +1,4 @@
-import { DecoderFn, EncoderFn } from '@jimp/core';
+import { DecoderFn, EncoderFn } from '@my-jimp/core';
 
 interface Bmp {
   constants: {

@@ -1,4 +1,4 @@
-import { Jimp, ImageCallback } from '@jimp/core';
+import { Jimp, ImageCallback } from '@my-jimp/core';
 
 interface CropClass {
   crop(x: number, y: number, w: number, h: number, cb?: ImageCallback<this>): this;

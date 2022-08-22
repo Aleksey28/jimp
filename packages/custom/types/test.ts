@@ -1,11 +1,11 @@
-import configure from '@jimp/custom';
-import gif from '@jimp/gif';
-import png from '@jimp/png';
-import displace from '@jimp/plugin-displace';
-import resize from '@jimp/plugin-resize';
-import scale from '@jimp/plugin-scale';
-import types from '@jimp/types';
-import plugins from '@jimp/plugins';
+import configure from '@my-jimp/custom';
+import gif from '@my-jimp/gif';
+import png from '@my-jimp/png';
+import displace from '@my-jimp/plugin-displace';
+import resize from '@my-jimp/plugin-resize';
+import scale from '@my-jimp/plugin-scale';
+import types from '@my-jimp/types';
+import plugins from '@my-jimp/plugins';
 import * as Jimp from 'jimp';
 
 // configure should return a valid Jimp type with addons

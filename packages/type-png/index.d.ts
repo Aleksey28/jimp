@@ -1,4 +1,4 @@
-import { DecoderFn, EncoderFn, ImageCallback } from '@jimp/core';
+import { DecoderFn, EncoderFn, ImageCallback } from '@my-jimp/core';
 
 interface PNGClass {
   _deflateLevel: number,

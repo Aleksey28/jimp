@@ -1,4 +1,4 @@
-import { Jimp, ImageCallback } from '@jimp/core';
+import { Jimp, ImageCallback } from '@my-jimp/core';
 
 interface Blit {
   blit(src: Jimp, x: number, y: number, cb?: ImageCallback<this>): this;

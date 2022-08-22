@@ -1,7 +1,7 @@
-import configure from '@jimp/custom';
+import configure from '@my-jimp/custom';
 
-import types from '@jimp/types';
-import plugins from '@jimp/plugins';
+import types from '@my-jimp/types';
+import plugins from '@my-jimp/plugins';
 
 export default configure({
   types: [types],

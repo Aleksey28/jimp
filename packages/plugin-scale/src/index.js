@@ -1,4 +1,4 @@
-import { isNodePattern, throwError } from '@jimp/utils';
+import { isNodePattern, throwError } from '@my-jimp/utils';
 
 export default () => ({
   /**

@@ -1,6 +1,6 @@
-import { Jimp, getTestDir } from '@jimp/test-utils';
+import { Jimp, getTestDir } from '@my-jimp/test-utils';
 
-import configure from '@jimp/custom';
+import configure from '@my-jimp/custom';
 
 const jimp = configure({ plugins: [] }, Jimp);
 

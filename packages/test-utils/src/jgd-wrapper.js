@@ -1,4 +1,4 @@
-import configure from '@jimp/custom';
+import configure from '@my-jimp/custom';
 import { PNG } from 'pngjs';
 
 import JGD from './jgd';

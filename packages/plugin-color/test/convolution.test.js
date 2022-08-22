@@ -1,6 +1,6 @@
-import { Jimp, mkJGD, getTestDir } from '@jimp/test-utils';
-import configure from '@jimp/custom';
-import types from '@jimp/types';
+import { Jimp, mkJGD, getTestDir } from '@my-jimp/test-utils';
+import configure from '@my-jimp/custom';
+import types from '@my-jimp/types';
 
 import color from '../src';
 

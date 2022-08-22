@@ -1,4 +1,4 @@
-import { throwError, isNodePattern } from '@jimp/utils';
+import { throwError, isNodePattern } from '@my-jimp/utils';
 import { mulTable, shgTable } from './blur-tables';
 
 /*

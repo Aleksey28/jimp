@@ -1,7 +1,7 @@
-import { Jimp, mkJGD, hasOwnProp } from '@jimp/test-utils';
+import { Jimp, mkJGD, hasOwnProp } from '@my-jimp/test-utils';
 
-import configure from '@jimp/custom';
-import plugins from '@jimp/plugins';
+import configure from '@my-jimp/custom';
+import plugins from '@my-jimp/plugins';
 
 const jimp = configure({ plugins: [plugins] }, Jimp);
 

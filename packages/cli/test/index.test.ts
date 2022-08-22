@@ -53,7 +53,7 @@ describe('index', () => {
           'read',
           makePath(__dirname, './images/tiny-qr.png'),
           '-p',
-          '@jimp/plugin-non-existant'
+          '@my-jimp/plugin-non-existant'
         );
         reset();
       } catch (error) {
@@ -73,7 +73,7 @@ describe('index', () => {
         output,
         '-v',
         '-p',
-        '@jimp/plugin-circle'
+        '@my-jimp/plugin-circle'
       );
 
       reset();
@@ -92,7 +92,7 @@ describe('index', () => {
         '-a',
         ['blit', makePath(__dirname, './images/tiny-qr.png'), 0, 0],
         '-p',
-        '@jimp/plugin-circle'
+        '@my-jimp/plugin-circle'
       );
 
       fs.readFileSync(output).should.be.deepEqual(

@@ -1,8 +1,8 @@
-import { Jimp, mkJGD } from '@jimp/test-utils';
-import configure from '@jimp/custom';
-import blit from '@jimp/plugin-blit';
-import crop from '@jimp/plugin-crop';
-import resize from '@jimp/plugin-resize';
+import { Jimp, mkJGD } from '@my-jimp/test-utils';
+import configure from '@my-jimp/custom';
+import blit from '@my-jimp/plugin-blit';
+import crop from '@my-jimp/plugin-crop';
+import resize from '@my-jimp/plugin-resize';
 
 import rotate from '../src';
 

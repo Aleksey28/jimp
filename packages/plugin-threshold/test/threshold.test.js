@@ -1,8 +1,8 @@
-import { Jimp, getTestDir } from '@jimp/test-utils';
-import configure from '@jimp/custom';
-import jpeg from '@jimp/jpeg';
-import color from '@jimp/plugin-color';
-import resize from '@jimp/plugin-resize';
+import { Jimp, getTestDir } from '@my-jimp/test-utils';
+import configure from '@my-jimp/custom';
+import jpeg from '@my-jimp/jpeg';
+import color from '@my-jimp/plugin-color';
+import resize from '@my-jimp/plugin-resize';
 
 import threshold from '../src';
 

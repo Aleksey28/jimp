@@ -16,9 +16,9 @@ import {
   GetPluginEncoders,
   GetPluginDecoders,
   JimpConstructors
-} from '@jimp/core';
-import typeFn from '@jimp/types';
-import pluginFn from '@jimp/plugins';
+} from '@my-jimp/core';
+import typeFn from '@my-jimp/types';
+import pluginFn from '@my-jimp/plugins';
 
 type Types = ReturnType<typeof typeFn>;
 type Plugins = ReturnType<typeof pluginFn>;

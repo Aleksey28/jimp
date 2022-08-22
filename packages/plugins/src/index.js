@@ -1,26 +1,26 @@
 import { mergeDeep } from 'timm';
 
-import blit from '@jimp/plugin-blit';
-import blur from '@jimp/plugin-blur';
-import circle from '@jimp/plugin-circle';
-import color from '@jimp/plugin-color';
-import contain from '@jimp/plugin-contain';
-import cover from '@jimp/plugin-cover';
-import crop from '@jimp/plugin-crop';
-import displace from '@jimp/plugin-displace';
-import dither from '@jimp/plugin-dither';
-import fisheye from '@jimp/plugin-fisheye';
-import flip from '@jimp/plugin-flip';
-import gaussian from '@jimp/plugin-gaussian';
-import invert from '@jimp/plugin-invert';
-import mask from '@jimp/plugin-mask';
-import normalize from '@jimp/plugin-normalize';
-import print from '@jimp/plugin-print';
-import resize from '@jimp/plugin-resize';
-import rotate from '@jimp/plugin-rotate';
-import scale from '@jimp/plugin-scale';
-import shadow from '@jimp/plugin-shadow';
-import threshold from '@jimp/plugin-threshold';
+import blit from '@my-jimp/plugin-blit';
+import blur from '@my-jimp/plugin-blur';
+import circle from '@my-jimp/plugin-circle';
+import color from '@my-jimp/plugin-color';
+import contain from '@my-jimp/plugin-contain';
+import cover from '@my-jimp/plugin-cover';
+import crop from '@my-jimp/plugin-crop';
+import displace from '@my-jimp/plugin-displace';
+import dither from '@my-jimp/plugin-dither';
+import fisheye from '@my-jimp/plugin-fisheye';
+import flip from '@my-jimp/plugin-flip';
+import gaussian from '@my-jimp/plugin-gaussian';
+import invert from '@my-jimp/plugin-invert';
+import mask from '@my-jimp/plugin-mask';
+import normalize from '@my-jimp/plugin-normalize';
+import print from '@my-jimp/plugin-print';
+import resize from '@my-jimp/plugin-resize';
+import rotate from '@my-jimp/plugin-rotate';
+import scale from '@my-jimp/plugin-scale';
+import shadow from '@my-jimp/plugin-shadow';
+import threshold from '@my-jimp/plugin-threshold';
 
 const plugins = [
   blit,

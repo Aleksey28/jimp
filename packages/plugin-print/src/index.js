@@ -1,6 +1,6 @@
 import Path from 'path';
 import bMFont from 'load-bmfont';
-import { isNodePattern, throwError } from '@jimp/utils';
+import { isNodePattern, throwError } from '@my-jimp/utils';
 import { measureText, measureTextHeight } from './measure-text';
 
 function xOffsetBasedOnAlignment(constants, font, line, maxWidth, alignment) {

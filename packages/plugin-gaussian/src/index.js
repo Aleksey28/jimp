@@ -1,4 +1,4 @@
-import { isNodePattern, throwError } from '@jimp/utils';
+import { isNodePattern, throwError } from '@my-jimp/utils';
 
 /**
  * Applies a true Gaussian blur to the image (warning: this is VERY slow)
@@ -27,7 +27,7 @@ export default () => ({
     for (let y = 0; y < range; y++) {
       weights[y] = [];
       for (let x = 0; x < range; x++) {
-        const dsq = (x - rs) ** 2 + (y - rs) ** 2 ;
+        const dsq = (x - rs) ** 2 + (y - rs) ** 2;
         weights[y][x] = Math.exp(-dsq / rr2) / rr2pi;
       }
     }
@@ -42,8 +42,14 @@ export default () => ({
 
         for (let iy = 0; iy < range; iy++) {
           for (let ix = 0; ix < range; ix++) {
-            const x1 = Math.min(this.bitmap.width - 1, Math.max(0, ix + x - rs ));
-            const y1 = Math.min(this.bitmap.height - 1, Math.max(0, iy + y - rs));
+            const x1 = Math.min(
+              this.bitmap.width - 1,
+              Math.max(0, ix + x - rs)
+            );
+            const y1 = Math.min(
+              this.bitmap.height - 1,
+              Math.max(0, iy + y - rs)
+            );
             const weight = weights[iy][ix];
             const idx = (y1 * this.bitmap.width + x1) << 2;
 

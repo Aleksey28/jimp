@@ -1,5 +1,5 @@
 import BMP from 'bmp-js';
-import { scan } from '@jimp/utils';
+import { scan } from '@my-jimp/utils';
 
 const MIME_TYPE = 'image/bmp';
 const MIME_TYPE_SECOND = 'image/x-ms-bmp';

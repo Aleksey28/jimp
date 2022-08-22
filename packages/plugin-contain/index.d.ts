@@ -1,4 +1,4 @@
-import { ImageCallback } from '@jimp/core';
+import { ImageCallback } from '@my-jimp/core';
 
 interface Contain {
   contain(w: number, h: number, cb?: ImageCallback<this>): this;

@@ -1,10 +1,10 @@
 import fs from 'fs';
 import should from 'should';
 
-import { Jimp, getTestDir } from '@jimp/test-utils';
+import { Jimp, getTestDir } from '@my-jimp/test-utils';
 
-import configure from '@jimp/custom';
-import plugins from '@jimp/plugins';
+import configure from '@my-jimp/custom';
+import plugins from '@my-jimp/plugins';
 
 const jimp = configure({ plugins: [plugins] }, Jimp);
 

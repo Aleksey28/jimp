@@ -1,4 +1,4 @@
-import { ImageCallback } from '@jimp/core';
+import { ImageCallback } from '@my-jimp/core';
 
 interface Scale {
   scale(f: number, cb?: ImageCallback<this>): this;

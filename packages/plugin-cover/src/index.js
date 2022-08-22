@@ -1,4 +1,4 @@
-import { isNodePattern, throwError } from '@jimp/utils';
+import { isNodePattern, throwError } from '@my-jimp/utils';
 
 /**
  * Scale the image so the given width and height keeping the aspect ratio. Some parts of the image may be clipped.

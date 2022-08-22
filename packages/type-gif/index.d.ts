@@ -1,4 +1,4 @@
-import { DecoderFn } from '@jimp/core';
+import { DecoderFn } from '@my-jimp/core';
 
 interface Gif {
   mime: {
