@@ -1,7 +1,7 @@
 {
-  "name": "@jimp/png",
-  "version": "0.16.1",
-  "description": "Default Jimp png encoder/decoder.",
+  "name": "@my-jimp/png",
+  "version": "0.16.2",
+  "description": "Default hekerman png encoder/decoder.",
   "main": "dist/index.js",
   "module": "es/index.js",
   "types": "index.d.ts",
@@ -21,15 +21,15 @@
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.7.2",
-    "@jimp/utils": "link:../utils",
+    "@my-jimp/utils": "link:../utils",
     "pngjs": "^3.3.3"
   },
   "peerDependencies": {
-    "@jimp/custom": ">=0.3.5"
+    "@my-jimp/custom": ">=0.3.5"
   },
   "devDependencies": {
-    "@jimp/custom": "link:../custom",
-    "@jimp/test-utils": "link:../test-utils"
+    "@my-jimp/custom": "link:../custom",
+    "@my-jimp/test-utils": "link:../test-utils"
   },
   "publishConfig": {
     "access": "public"

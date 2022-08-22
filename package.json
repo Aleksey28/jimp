@@ -1,12 +1,12 @@
 {
-  "name": "@jimp/monorepo",
+  "name": "@my-jimp/monorepo",
   "version": "0.0.0",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
   "description": "The jimp monorepo.",
-  "repository": "oliver-moran/jimp",
+  "repository": "Aleksey28/jimp",
   "author": "Andrew Lisowski <lisowski54@gmail.com>",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"

@@ -1,7 +1,7 @@
 {
-  "name": "@jimp/gif",
-  "version": "0.16.1",
-  "description": "Default Jimp gif encoder/decoder.",
+  "name": "@my-jimp/gif",
+  "version": "0.16.2",
+  "description": "Default hekerman gif encoder/decoder.",
   "main": "dist/index.js",
   "module": "es/index.js",
   "types": "index.d.ts",
@@ -18,12 +18,12 @@
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.7.2",
-    "@jimp/utils": "link:../utils",
+    "@my-jimp/utils": "link:../utils",
     "gifwrap": "^0.9.2",
     "omggif": "^1.0.9"
   },
   "peerDependencies": {
-    "@jimp/custom": ">=0.3.5"
+    "@my-jimp/custom": ">=0.3.5"
   },
   "publishConfig": {
     "access": "public"

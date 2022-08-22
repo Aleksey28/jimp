@@ -1,6 +1,6 @@
 {
-  "name": "@jimp/core",
-  "version": "0.16.1",
+  "name": "@my-jimp/core",
+  "version": "0.16.2",
   "description": "Jimp core",
   "main": "dist/index.js",
   "module": "es/index.js",
@@ -14,10 +14,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/oliver-moran/jimp.git"
+    "url": "https://github.com/Aleksey28/jimp.git"
   },
   "bugs": {
-    "url": "https://github.com/oliver-moran/jimp/issues"
+    "url": "https://github.com/Aleksey28/jimp/issues"
   },
   "scripts": {
     "test": "cross-env BABEL_ENV=test mocha --require @babel/register test/**/*.js",

@@ -1,6 +1,6 @@
 {
-  "name": "@jimp/plugin-threshold",
-  "version": "0.16.1",
+  "name": "@my-jimp/plugin-threshold",
+  "version": "0.16.2",
   "description": "Lightens an image.",
   "main": "dist/index.js",
   "module": "es/index.js",
@@ -21,19 +21,19 @@
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.7.2",
-    "@jimp/utils": "link:../utils"
+    "@my-jimp/utils": "link:../utils"
   },
   "peerDependencies": {
-    "@jimp/custom": ">=0.3.5",
-    "@jimp/plugin-color": ">=0.8.0",
-    "@jimp/plugin-resize": ">=0.8.0"
+    "@my-jimp/custom": ">=0.3.5",
+    "@my-jimp/plugin-color": ">=0.8.0",
+    "@my-jimp/plugin-resize": ">=0.8.0"
   },
   "devDependencies": {
-    "@jimp/custom": "link:../custom",
-    "@jimp/jpeg": "link:../type-jpeg",
-    "@jimp/plugin-color": "link:../plugin-color",
-    "@jimp/plugin-resize": "link:../plugin-resize",
-    "@jimp/test-utils": "link:../test-utils"
+    "@my-jimp/custom": "link:../custom",
+    "@my-jimp/jpeg": "link:../type-jpeg",
+    "@my-jimp/plugin-color": "link:../plugin-color",
+    "@my-jimp/plugin-resize": "link:../plugin-resize",
+    "@my-jimp/test-utils": "link:../test-utils"
   },
   "publishConfig": {
     "access": "public"

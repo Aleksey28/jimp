@@ -1,7 +1,7 @@
 {
-  "name": "@jimp/test-utils",
-  "version": "0.16.1",
-  "description": "Test utils for jimp extensions.",
+  "name": "@my-jimp/test-utils",
+  "version": "0.16.2",
+  "description": "Test utils for hekerman extensions.",
   "main": "dist/index.js",
   "module": "es/index.js",
   "scripts": {
@@ -26,7 +26,7 @@
     "pngjs": "^3.3.3"
   },
   "devDependencies": {
-    "@jimp/custom": "link:../custom",
+    "@my-jimp/custom": "link:../custom",
     "should": "^13.2.3"
   }
 }
