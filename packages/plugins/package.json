@@ -1,6 +1,6 @@
 {
   "name": "@my-jimp/plugins",
-  "version": "0.16.7",
+  "version": "0.16.8",
   "description": "Default hekerman plugin.",
   "main": "dist/index.js",
   "module": "es/index.js",
